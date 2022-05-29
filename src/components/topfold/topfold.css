@@ -1,0 +1,71 @@
+.topfold {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    margin: 6px 12px;
+    padding: 12px 0px;
+}
+
+.home-topfold {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    border-radius: 14px;
+}
+
+.searchbar i {
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+
+.searchbar input {
+    width: 80%;
+    padding: 7px 0px;
+    margin-left: 6px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.add-button {
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid white;
+    /* font-size: 20px; */
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.add-button i {
+    display: flex;
+    align-items: center;
+    margin-right: 6px;
+}
+
+.add-topfold {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.add-topfold-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.add-topfold-button i {
+    display: flex;
+    align-items: center;
+    margin-right: 6px;
+}
